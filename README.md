@@ -23,6 +23,7 @@ Refer to http://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3
 Refer to https://www.tensorflow.org/versions/master/get_started/os_setup.html#download-and-setup to setup tensorflow
 
 To run an example:
+
     cd ~
     git clone https://github.com/kendricktan/openimif.git
     cd openimif
