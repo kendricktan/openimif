@@ -23,7 +23,6 @@ def max_pool_2x2(x):
 # Converts image to mnist data format for digits
 def get_mnist_format(img):
     img = cv2.resize(img, (28, 28), interpolation=cv2.INTER_AREA)
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     img = np.float32(np.array([img.flatten()]))
     img /= np.amax(img)
     return img
