@@ -1,7 +1,7 @@
 # openimif
 Open-sourced tool that uses opencv and tensorflow to 'learn' and identify stuff from images
 
-## About/How does it operate
+# How?
 - OpenCV is used to manipulate the properties of the image
 - Tensorflow is used for the learning of 'elements' within the image
 
